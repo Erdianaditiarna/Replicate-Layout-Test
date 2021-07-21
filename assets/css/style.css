@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet|Poppins");
+* {
+  box-sizing: border-box;
+}
+
+header,
+section {
+  overflow-x: hidden;
+}
+
+:root {
+  --Poppins: "Poppins";
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, rgb(0, 62, 137), rgb(14, 91, 186));
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+header {
+  background: rgb(0, 62, 137);
+  background: var(--bggradient);
+}
+
+header a {
+  font-family: var(--Poppins);
+  font-size: 0.9em;
+  color: whitesmoke;
+}
+
+header .container .col a {
+  border-radius: 30px;
+  border: 2px solid rgb(255, 173, 19);
+  font-weight: bold;
+  color: #ffffff;
+}
+
+header .container .col a:hover {
+  background: rgb(255, 173, 19);
+  color: #ffffff;
+}
+
+.navbar {
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  border-radius: 30px;
+}
+
+.navbar-nav .nav-link:hover {
+  background: rgb(255, 173, 19);
+  color: #ffffff;
+}
+
+.btn-primary {
+  background: none;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 25px;
+  border: 3px solid rgb(255, 173, 19);
+  border-radius: 35px;
+  margin-left: 10px;
+  display: inline-block;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-primary:hover {
+  background: rgb(255, 173, 19);
+  color: #ffffff;
+}
+
+.btn-secondary {
+  background: none;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 25px;
+  border: 3px solid rgb(255, 173, 19);
+  border-radius: 35px;
+  margin-left: 10px;
+  display: inline-block;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-secondary:hover {
+  background: rgb(255, 173, 19);
+  color: #ffffff;
+}
+
+.jumbotron {
+  padding-bottom: 2rem;
+}
+.jumbotron h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.jumbotron p {
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.carousel slide {
+  max-width: 100%;
+}
+
+#play {
+  padding-bottom: 3rem;
+}
+
+#play .card {
+  background: rgb(63, 125, 201);
+}
+#play .btn-play {
+  border-radius: 30px;
+  border: 2px solid rgb(255, 173, 19);
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#play .btn-play:hover {
+  background: rgb(255, 173, 19);
+  color: #ffffff;
+}
+
+#more {
+  padding-bottom: 3rem;
+  color: rgb(0, 62, 137);
+}
+
+.item1 i {
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  color: rgb(255, 173, 19);
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
+.item1 i:hover {
+  background-color: rgb(255, 173, 19);
+  color: #ffffff;
+}
+.item2 i {
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  color: rgb(255, 173, 19);
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
+.item2 i:hover {
+  background-color: rgb(255, 173, 19);
+  color: #ffffff;
+}
+.item3 i {
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  color: rgb(255, 173, 19);
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
+.item3 i:hover {
+  background-color: rgb(255, 173, 19);
+  color: #ffffff;
+}
+.item4 i {
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  color: rgb(255, 173, 19);
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
+.item4 i:hover {
+  background-color: rgb(255, 173, 19);
+  color: #ffffff;
+}
+
+footer {
+  overflow-x: hidden;
+  padding: 5vmin 18vmin;
+  background: rgb(0, 62, 137);
+  color: #ffffff;
+}
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    margin-top: 10px;
+    margin-left: 0 !important;
+  }
+}

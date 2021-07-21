@@ -1,0 +1,87 @@
+:root {
+  --Poppins: "Poppins";
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, rgb(0, 62, 137), rgb(14, 91, 186));
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+body.my-login-page {
+  background: rgb(14, 91, 186);
+  font-size: 14px;
+}
+
+.my-login-page .brand {
+  background: rgb(0, 62, 137);
+  width: 180px;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 3px solid rgb(255, 173, 19);
+  margin: 40px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  position: relative;
+  z-index: 1;
+}
+
+.my-login-page .brand img {
+  padding: 15px 15px;
+  width: 100%;
+}
+
+.my-login-page .card-wrapper {
+  width: 400px;
+}
+
+.my-login-page .card {
+  border-color: transparent;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.my-login-page .card.fat {
+  padding: 10px;
+}
+
+.my-login-page .card .card-title {
+  margin-bottom: 30px;
+}
+
+.my-login-page .form-control {
+  border-width: 2.3px;
+  border-radius: 30px;
+}
+
+.my-login-page .form-group label {
+  width: 100%;
+}
+
+.my-login-page .btn.btn-block {
+  background: rgb(14, 91, 186);
+  padding: 12px 10px;
+  border-radius: 30px;
+}
+
+.my-login-page .footer {
+  margin: 40px 0;
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+  .my-login-page .card-wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .my-login-page .card.fat {
+    padding: 0;
+  }
+
+  .my-login-page .card.fat .card-body {
+    padding: 15px;
+  }
+}
